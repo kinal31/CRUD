@@ -1,0 +1,19 @@
+execution flow 
+
+add button -> setAddSection(true) after 
+
+<Formtable/> will execute
+
+handleonchange -> if user type something that will stor in setFormData
+
+ const[ editsection,setEditSection] = useState(false) aa line edit karva mate nu box open karse 
+
+handleUpdate ->
+Handles the form submission for updating an existing record.
+Sends a PUT request to the backend with the updated record data.	
+
+handleEditOnChange  -> if user type something that will stor in setFormDataEdit
+
+handleEdit:
+
+Sets the state for the edit form to be visible and populates it with the data of the selected record.
