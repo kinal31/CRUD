@@ -38,7 +38,7 @@ function App() {
     const data = await axios.post("/create",formData)
     console.log(data)
     if(data.data.Success){ 
-      // aa id condition aetla mate che jo ek var submit button per click thay jay to box disapper thay jay
+      // aa if condition aetla mate che jo ek var submit button per click thay jay to box disapper thay jay
       setAddSection(false)
       alert(data.data.message)
       getFatchData()
@@ -54,7 +54,7 @@ function App() {
     const data = await axios.get("/")
     console.log(data)
     if(data.data.Success){ 
-      // aa id condition aetla mate che jo ek var submit button per click thay jay to box disapper thay jay
+      // aa if condition aetla mate che jo ek var submit button per click thay jay to box disapper thay jay
       setDataList(data.data.Data)
       // alert(data.data.message)
     }
